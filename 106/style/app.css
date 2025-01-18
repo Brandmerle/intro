@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    height: 100vh;  /*vh means vertical height- 100 means 100%*/
+}
+
+#list{
+    background-color: aqua;
+    flex: 2;
+}
+
+#form{
+    background-color: rgb(230, 227, 232);
+    flex: 2;
+}
