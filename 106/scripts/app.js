@@ -45,7 +45,7 @@ function loadTask(){
             //console log only those elements that were created by you on the server using a for-if statement
             for (let i=0;i<data.length;i++){
                 let task=data[i]
-                if(task.name=="brandon54")
+                if(task.name=="brandon1")
                 {
                     displayTask(task);
                 }
