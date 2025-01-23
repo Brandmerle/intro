@@ -9,27 +9,30 @@
 </head>
 <body>
     <main>
-        <section id="list">A</section>
+        <section id="list">
+            <div class="pending-tasks"></div>
+        </section>
+        
         <section id="form">
             <div class="mb-3">
-                <label class="form-label">Title</label>
-                <input type="text" class="form-control" id="txtTitle">
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;">Title</label>
+                <input type="text" class="form-control" id="txtTitle" style="border: 5px solid aqua;">
             </div>
             <div class="mb-3">
-                <label class="form-label">Description</label>
-                <textarea rows="5" class="form-control" id="txtDescription"></textarea>
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;">Description</label>
+                <textarea rows="5" class="form-control" id="txtDescription" style="border: 5px solid aqua;"></textarea>
             </div>
             <div class="mb-3">
-                <label class="form-label">Color</label>
-                <input type="color" class="form-control" id="selColor">
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;" for="selColor" style="color: aqua;font-weight: bold;">Color</label> 
+                <input type="color" class="form-control" id="selColor" style="border: 5px solid aqua;">
             </div>
             <div class="mb-3">
-                <label class="form-label">Start Date</label>
-                <input type="datetime-local" class="form-control" id="selDate"> 
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;">Start Date</label>
+                <input type="datetime-local" class="form-control" id="selDate" style="border: 5px solid aqua;"> 
             </div>
             <div class="mb-3">
-                <label class="form-label">Status</label>
-                <select class="form-control" id="selStatus">
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;">Status</label>
+                <select class="form-control" id="selStatus" style="border: 5px solid aqua;">
                     <option>New</option>
                     <option>In progress</option>
                     <option>Completed</option>
@@ -37,8 +40,8 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label class="form-label">Budget</label>
-                <input type="number" class="form-control" id="numBudget">
+                <label class="form-label for="selColor" style="color: aqua;font-weight: bold;">Budget</label>
+                <input type="number" class="form-control" id="numBudget" style="border: 5px solid aqua;">
             </div>
             <div>
                 <button id="btnSave" class="btn btn-dark">Save Task</button>
@@ -49,7 +52,10 @@
     </main>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./scripts/task.js"></script>
     <script src="./scripts/app.js"></script>
+
+
 
 </body>
 </html>

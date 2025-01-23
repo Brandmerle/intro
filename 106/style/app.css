@@ -6,9 +6,19 @@ main{
 #list{
     background-color: aqua;
     flex: 2;
+    border: 5px solid white;
 }
 
 #form{
-    background-color: rgb(230, 227, 232);
+    background-color:orange;
     flex: 2;
+    padding: 10px;
+    border: 5px solid white;
+}
+.task{
+    border: 5px solid orange; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    margin: 10px; /* Space around the box */
+    background-color: #f9f9f9; /* Background color */
 }
